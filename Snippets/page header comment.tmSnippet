@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/*------------------------------------------------------------------------------
+| ${1:$TM_FILENAME}
+| ${2:application name}${4: v${3:1.0}}
+| Author(s): ${5:${TM_USER_NAME}}
+| Created: ${6:`date +%Y-%m-%d`}
+|
+| ${7:file description.}
+------------------------------------------------------------------------------*/
+
+$0</string>
+	<key>name</key>
+	<string>page header comment</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>/ph</string>
+	<key>uuid</key>
+	<string>678F1715-931A-4BD4-80A8-37BBDB19570E</string>
+</dict>
+</plist>

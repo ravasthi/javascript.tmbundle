@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/*------------------------------------------------------------------------------
+| ${1:function name}(${2:parameter list})
+|
+${3:|   ${4:parameter 1}:    ${5:parameter description}
+|
+}| ${0:description goes here}
+${6:| Requirements: ${7:jquery-${TM_JQUERY_VERSION:1.4.2}, jquery.ui-${TM_JQUERY_UI_VERSION:1.8.4}, …}
+}------------------------------------------------------------------------------*/</string>
+	<key>name</key>
+	<string>function header comment</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>/fh</string>
+	<key>uuid</key>
+	<string>8C10CE3E-61F4-4BA6-A4D6-C5EF81487A8C</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var now = new Date();
+window.console.log(now.strftime("%Y-%m-%d %H:%I:%S"));
+</string>
+	<key>name</key>
+	<string>insert timestamp</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>tstamp</string>
+	<key>uuid</key>
+	<string>E392AFD7-8376-40B7-B69C-5D8D6BA9D7F2</string>
+</dict>
+</plist>
