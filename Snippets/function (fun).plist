@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>function ${1:function_name} (${2:argument}) {
-	${0:// body...}
+	<string>/*------------------------------------------------------------------------------
+| $1($2)
+|
+|   ${3:parameter:	parameter description}
+|
+| ${4:function description}
+| Requirements: ${5:jquery-${TM_JQUERY_VERSION:1.4.2}, jquery-${TM_JQUERY_UI_VERSION:1.8.4}.widget,…}
+------------------------------------------------------------------------------*/
+function ${1:function name}(${2: parameter1) ${TM_JAVASCRIPT_BRACE_PREFIX:
+}{
+	$0
 }</string>
 	<key>name</key>
 	<string>Function</string>
