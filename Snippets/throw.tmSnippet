@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:method_name}: function (${3:attribute}) {
-	$0
-}${10:,}</string>
+	<string>throw new ${1:Error}(${2:$TM_SELECTED_TEXT});</string>
 	<key>name</key>
-	<string>Object Method</string>
+	<string>throw</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>:f</string>
+	<string>throw</string>
 	<key>uuid</key>
-	<string>77065D69-742A-4FF0-9A41-AD211DFBE72F</string>
+	<string>C1FE098B-501D-4567-B024-5C9C394898E5</string>
 </dict>
 </plist>

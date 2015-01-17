@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+#!/usr/bin/env ruby18
 
 require "#{ENV['TM_SUPPORT_PATH']}/lib/exit_codes"
 require "#{ENV['TM_SUPPORT_PATH']}/lib/ui"

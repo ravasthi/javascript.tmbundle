@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:method_name}: function (${3:attribute}) {
-	$0
-}${10:,}</string>
+	<string>(function() {
+	${1:$TM_SELECTED_TEXT}
+}());</string>
 	<key>name</key>
-	<string>Object Method</string>
+	<string>Immediately-Invoked Function Expression</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>:f</string>
+	<string>iife</string>
 	<key>uuid</key>
-	<string>77065D69-742A-4FF0-9A41-AD211DFBE72F</string>
+	<string>20E20EB2-E795-4097-86CF-D40E44DC4E70</string>
 </dict>
 </plist>
