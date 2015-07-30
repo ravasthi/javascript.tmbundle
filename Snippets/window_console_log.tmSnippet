@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>if(window.console)${TM_JAVASCRIPT_BRACE_PREFIX:
 }{
-  window.console.log("$1");$0
+  window.console.log(${2:"$1"});$0
 }</string>
 	<key>name</key>
 	<string>window.console.log</string>
