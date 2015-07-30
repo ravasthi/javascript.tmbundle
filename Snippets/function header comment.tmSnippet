@@ -9,7 +9,7 @@
 ${3:|   ${4:parameter 1}:    ${5:parameter description}
 |
 }| ${0:description goes here}
-${6:| Requirements: ${7:jquery-${TM_JQUERY_VERSION:1.4.2}, jquery.ui-${TM_JQUERY_UI_VERSION:1.8.4}, …}
+${6:| Requirements: ${7:jquery-${TM_JQUERY_VERSION:2.1.4}, jquery.ui-${TM_JQUERY_UI_VERSION:1.11.4}, …}
 }------------------------------------------------------------------------------*/</string>
 	<key>name</key>
 	<string>function header comment</string>

@@ -3,15 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/*------------------------------------------------------------------------------
-| $1($2)
-|
-|   ${3:parameter:	parameter description}
-|
-| ${4:function description}
-| Requirements: ${5:jquery-${TM_JQUERY_VERSION:1.4.2}, jquery-${TM_JQUERY_UI_VERSION:1.8.4}.widget,…}
-------------------------------------------------------------------------------*/
-function ${1:function name}(${2: parameter1) ${TM_JAVASCRIPT_BRACE_PREFIX:
+	<string>function ${1:functionName}(${2:parameter1})${TM_JAVASCRIPT_BRACE_PREFIX:
 }{
 	$0
 }</string>
