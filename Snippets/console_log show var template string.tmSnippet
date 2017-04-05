@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>console.log(${2:'${1:varName}: ' + $1});$0</string>
+	<string>console.log(${2:\`${1:varName}: \${$1\}\`});$0</string>
 	<key>name</key>
-	<string>console.log show var</string>
+	<string>console.log show var template string</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>clv</string>
+	<string>clvt</string>
 	<key>uuid</key>
-	<string>AF2D60BB-643D-4EA0-A1E5-05ABFB332FD8</string>
+	<string>6E7F601D-3E09-45ED-B4F4-F6212B8E759F</string>
 </dict>
 </plist>
