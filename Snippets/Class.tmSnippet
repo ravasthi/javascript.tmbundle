@@ -3,16 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:methodName}: function ($3) {
-	$0
-}${10:,}</string>
+	<string>class ${1:ClassName} {
+	constructor($2) {
+		$3
+	}
+}</string>
 	<key>name</key>
-	<string>Object Method</string>
+	<string>Class</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>:f</string>
+	<string>class</string>
 	<key>uuid</key>
-	<string>77065D69-742A-4FF0-9A41-AD211DFBE72F</string>
+	<string>66C3F21C-5762-40D7-A383-ABDFFC26EFE5</string>
 </dict>
 </plist>

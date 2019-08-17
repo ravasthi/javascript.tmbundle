@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:methodName}: function ($3) {
-	$0
-}${10:,}</string>
+	<string>case ${1:expression}:
+	$2
+	break;</string>
 	<key>name</key>
-	<string>Object Method</string>
+	<string>case</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>:f</string>
+	<string>case</string>
 	<key>uuid</key>
-	<string>77065D69-742A-4FF0-9A41-AD211DFBE72F</string>
+	<string>7A28A364-65AF-4D8D-A26B-D057D7C2A14E</string>
 </dict>
 </plist>
